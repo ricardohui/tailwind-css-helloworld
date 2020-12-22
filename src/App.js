@@ -2,14 +2,23 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="App">
-      <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-        <div className="flex-shrink-0">
-          <img className="h-12 w-12" src={logo} alt="ChitChat Logo" />
+    <div className="max-w-md mx-auto bg-white rounded-xl md:max-w-xl overflow-hidden shadow-xl">
+      <div className="md:flex">
+        <div className="md:flex">
+          <img
+            className="h-48 w-full object-cover md:w-48"
+            src={logo}
+            alt="ChitChat Logo"
+          />
         </div>
-        <div>
-          <div className="text-xl font-medium text-black">ChitChat</div>
-          <p className="text-gray-500">You have a new message!</p>
+        <div className="p-7">
+          <div className="uppercase text-indigo-500 font-semibold text-sm">
+            Case Study
+          </div>
+          <a className="block mt-1 text-lg leading-tight font-medium text-black hover:underline ">
+            Find customers for your new business
+          </a>
+          <p className="mt-2 text-gray-500">You have a new message!</p>
         </div>
       </div>
     </div>
