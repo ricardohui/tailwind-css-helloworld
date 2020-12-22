@@ -12,7 +12,7 @@ function ResponsiveCard() {
           />
         </div>
         <div className="p-7">
-          <div className="uppercase text-indigo-500 tracking-wider font-semibold text-sm">
+          <div className="uppercase text-primary-500 tracking-wider font-semibold text-sm">
             Case Study
           </div>
           <a className="block mt-1 text-lg leading-tight font-medium text-black hover:underline ">
