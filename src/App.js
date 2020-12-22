@@ -2,10 +2,11 @@ import ResponsiveCard from "./ResponsiveCard";
 import FieldAndButton from "./FieldAndButton";
 function App() {
   return (
-    <div className="flex flex-wrap justify-center align-middle p-24">
+    <div className="flex flex-wrap justify-center ">
       <ResponsiveCard />
-      <div className="p-64"></div>
+      {/* <div className="min-h-screen">Something</div> */}
       <FieldAndButton />
+      {/* <div className="min-h-screen"></div> */}
     </div>
   );
 }
