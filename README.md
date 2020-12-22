@@ -2,7 +2,7 @@
 
 # Project Setup
 Tips
-use node version of 12 to use `yarn`
+use node version of 12 to use `yarn`. Otherwise you would encounter `flatMap` error.
 remove any globally installed `create-react-app`
 
 try to use `yarn add` install of `npm install`
