@@ -15,7 +15,7 @@ function ResponsiveCard() {
           <div className="uppercase text-primary-500 tracking-wider font-semibold text-sm">
             Case Study
           </div>
-          <a className="block mt-1 text-lg leading-tight font-medium text-black hover:underline ">
+          <a className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">
             Find customers for your new business
           </a>
           <p className="mt-2 text-gray-500">You have a new message!</p>
